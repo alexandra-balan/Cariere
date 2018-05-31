@@ -1,0 +1,638 @@
+@font-face{
+	font-family: eb-garamond;
+	src: url(eb-garamond/EBGaramond-Regular.ttf) format('truetype');
+}
+
+body {
+	background-color: #F1F8E9;
+	font-family: eb-garamond;
+}
+
+header  {
+	color: #558b2f;
+	text-shadow: 0 0 5px #7CB342;
+	padding-top: 10vh;
+	font-size: 8vw;
+	text-align: center;
+	font-weight: bold;
+}
+h1 {
+    color: #558b2f;
+	text-shadow: 0 0 5px #7CB342;
+    text-align: center;
+    font-weight: bold;
+    
+}
+table {
+	position: absolute;
+	width: 10vw;
+	height: 60vh;
+	background-color: #558b2f;
+	opacity: 0.9;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+td > input {
+	background: transparent;
+	border: 0px transparent;
+	color: white;
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: eb-garamond;
+}
+
+th {
+	font-size: 2vw;
+	font-weight: bold;
+}
+
+#ButonSignOut {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: transparent;
+	border: 0px transparent;
+	color: #558b2f;
+	font-size: 2vw;
+	font-weight: bold;
+	font-family: eb-garamond;
+}
+
+
+footer {
+    clear: both;
+    display: inline-block;
+	padding: 0;
+	background-color: #558b2f;
+	opacity: 0.8;
+	z-index: 1;
+	width: 50%;
+	height: 20vh;
+	position: absolute;
+	top: 340vh;
+	left: 25%;
+	text-align: center;
+	font-size: 1vw;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 25px;
+}
+
+
+
+
+.divMare {
+
+    position: absolute;
+    display: inline-block;
+    top: 70%;
+    left: 45%;
+    margin-top:-35vh;
+    
+    margin-left:-50vh;
+    
+    
+    height:95vh;
+    width:60vw;
+    
+   
+
+    
+    }
+
+
+.containerHarti1 .containerHarti2 .containerHarti3 img{
+    
+ width:100vw;
+ height:100vh;
+ 
+}
+
+
+.containerHarti1 .buton11{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 5px;
+    width:6vw;
+    height: 3vh;
+}
+
+
+.containerHarti1 .buton12 {
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+    
+
+}
+
+.containerHarti1 .buton13 {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton14 {
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton15 {
+    position: absolute;
+    top: 43%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton16 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton17 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton18 {
+    position: absolute;
+    top: 70%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti1 .buton19 {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+
+.containerHarti2 .buton21 {
+    position: absolute;
+    top: 112%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti2 .buton22 {
+    position: absolute;
+    top: 123%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti2 .buton23 {
+    position: absolute;
+    top: 112%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+
+}
+
+.containerHarti2 .buton24 {
+    position: absolute;
+    top: 123%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+
+.containerHarti2 .buton25 {
+    position: absolute;
+    top: 130%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+
+
+.containerHarti2 .buton26 {
+    position: absolute;
+    top: 149%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti2 .buton27 {
+    position: absolute;
+    top: 165%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti2 .buton28 {
+    position: absolute;
+    top: 157%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti2 .buton29 {
+    position: absolute;
+    top: 140%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton31 {
+    position: absolute;
+    top: 198%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton32 {
+    position: absolute;
+    top: 209%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton33 {
+    position: absolute;
+    top: 198%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton34 {
+    position: absolute;
+    top: 209%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton35 {
+    position: absolute;
+    top: 215%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton36 {
+    position: absolute;
+    top: 233%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton37 {
+    position: absolute;
+    top: 250%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+
+.containerHarti3 .buton38 {
+    position: absolute;
+    top: 242%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}
+
+.containerHarti3 .buton39 {
+    position: absolute;
+    top: 224%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(12,78,105);
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:6vw;
+    height: 3vh;
+    line-height: 5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styleContactUtilizator.css">
+			<script src="dataContactUtilizator.js"></script>
+			<meta charset="UTF-8">
+			<meta name="keywords" content="targ, cariere, fmi, unibuc, proiect, cllaire, github">
+			<meta name="description" content="Site targ craiere">
+			<meta name="author" content="Ana-Cristina Rogoz">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title> Contact </title>
+	</head>
+	<body>
+		<input id = "ButonSignOut" type = "button" value="Sign Out"> 
+ 
+		<header> Contact </header> 
+		
+		<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+		
+		<script>
+		  var config = {
+		    apiKey: "AIzaSyAS5UYX4RkfpH5rHpQHvzZ1q_2ZQOVZ-AE",
+		    authDomain: "cariere-6d468.firebaseapp.com",
+		    databaseURL: "https://cariere-6d468.firebaseio.com",
+		    projectId: "cariere-6d468",
+		    storageBucket: "cariere-6d468.appspot.com",
+		    messagingSenderId: "757550022548"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+		<div id="Meniu"> 
+			<table>
+				<tr> <th> Meniu </th> </tr>
+				<tr> <td> <input id="ButonAnunturi" type="button" value="Anunturi"> </td> </tr>
+				<tr> <td> <input id="ButonHartaFacultate" type="button" value="Harta facultate"> </td> </tr>
+				<tr> <td> <input id="ButonProgramPrezentari" type="button" value="Program prezentari" </td> </tr>
+				<tr> <td> <input id="ButonProgramWorkshopuri" type="button" value="Program workshopuri" </td> </tr>
+				<tr> <td> <input id="ButonContact" type="button" value="Contact" </td></tr>
+			</table>
+		</div>
+		
+		<div id="Informatii">
+			<h2> Cine suntem? </h2>
+			<p> Asociația Studenților la Matematică și Informatică (ASMI) a fost fondată în anul 2009 din <br>
+				dorința de a reprezenta interesele și aspirațiile studenților și de a fi un intermediar <br>
+				între aceștia și cadrele didactice. În prezent, asociația noastră are 70 de membri activi, <br>
+				studenți la Facultatea de Matematică și Informatică a Universității din București.</p>
+			<h2> Ce ne propunem? </h2>
+			<p> ASMI dorește să creeze un mediu propice dezvoltării multilaterale a tinerilor, în afara <br>
+				cursurilor și a activităților academice. Unul dintre obiectivele majore este de a încuraja<br>
+				socializarea și interacțiunea studenților cu preocupări și pasiuni comune. Ne dorim să oferim<br>
+				o pregătire complementară viitorilor absolvenți, să le stimulăm gândirea multilaterală și să <br>
+				îi ajutăm să își îmbunătățească abilitățile de comunicare, calități neprețuite în cariera viitoare.</p>
+		</div>
+		<footer>
+			<br>
+			<p> AMA © 2018 </p>
+			<p> Universitatea din Bucuresti </p>
+			<p> Facultatea de Matematica si Informatica </p>	 
+		</footer>
+	</body>
+</html>

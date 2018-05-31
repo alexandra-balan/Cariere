@@ -1,0 +1,142 @@
+<html>
+<head>
+<script src ="dataOrarPrezentari1.js"> </script>
+<style>
+h1{
+text-align:center;
+color: #558b2f;
+}
+
+table{
+	font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+	left: 25vw;
+	position: absolute;
+	}
+
+ th{
+ padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px #568F23;
+    border:1px solid #93CE37;
+    border-bottom:3px solid #9ED929;
+    background-color:#9DD929;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(123,192,67)),
+        color-stop(0.51, rgb(139,198,66)),
+        color-stop(0.87, rgb(158,217,41))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(123,192,67) 2%,
+        rgb(139,198,66) 51%,
+        rgb(158,217,41) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+td{
+	padding:10px;
+    text-align:center;
+    background-color:#DEF3CA;
+    border: 2px solid #E7EFE0;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+	}
+th, td {
+    padding: 20px;
+    
+}
+#Intoarcere{background-color: #4CAF50;
+	position: fixed;
+	color: white;
+ 
+    text-align: center;
+	vertical-align: middle;
+    text-decoration: none;
+    top: 85%;
+	left: 10%;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	height:34px;
+	width: 20%;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 15px;
+    float:left;}
+</style>
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+
+		
+		<script>
+		  var config = {
+		    apiKey: "AIzaSyAS5UYX4RkfpH5rHpQHvzZ1q_2ZQOVZ-AE",
+		    authDomain: "cariere-6d468.firebaseapp.com",
+		    databaseURL: "https://cariere-6d468.firebaseio.com",
+		    projectId: "cariere-6d468",
+		    storageBucket: "cariere-6d468.appspot.com",
+		    messagingSenderId: "757550022548"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+<h1><br><br>Alege ziua si ora prezentarii!<br><br></h1>
+
+
+<table style="width:50%">
+  <tr>
+	<th>Ora/Zi</th>
+    <th>Marti</th>
+    <th>Miercuri</th>
+	<th>Joi</th>
+  </tr>
+  <tr id= "1">
+    <td>12:00-12:30</td>
+   <!-- <td><input id="buton1" class ="buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+    <td><input  id="buton2"  class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+	<td><input id="buton3" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>-->
+  </tr>
+   <tr  id="2">
+    <td>12:40-13:10</td>
+    <!--<td><input id="buton4" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+    <td><input id="buton5" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+	<td><input id="buton6" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td> -->
+  </tr>
+   <tr  id="3">
+    <td>13:20-13:50</td>
+    <!--<td><input id="buton7" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+    <td><input id="buton8" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+	<td><input id="buton9" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td> -->
+  </tr>
+   <tr  id="4">
+    <td>14:00-14:30</td>
+    <!--<td><input id="buton10" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+    <td><input id="buton11"  class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+	<td><input id="buton12"  class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>-->
+  </tr>
+   <tr  id="5">
+    <td>14:40-15:10</td>
+    <!--<td><input id="buton13" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+    <td><input id="buton14" class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>
+	<td><input id="buton15"  class = "buton" type="button" onclick="ButonAlege()" value="Alege!"></td>-->
+  </tr>
+</table>
+<input id="Intoarcere" type="button" value= "Intoarce-te la pachete!">
+</body>
+</html>

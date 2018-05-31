@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylePachet1.css">
+			<script src="dataPachet1.js"></script>
+			<meta charset="UTF-8">
+			<meta name="keywords" content="targ, cariere, fmi, unibuc, proiect, cllaire, github">
+			<meta name="description" content="Site targ craiere">
+			<meta name="author" content="Ana-Cristina Rogoz">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title> Pachet Silver </title>
+	</head>
+	<body>
+		
+ 
+		<header> PACHET <span style="color:#C0C0C0">SILVER</span></header> 
+		
+		<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+		
+		<script>
+		  var config = {
+		    apiKey: "AIzaSyAS5UYX4RkfpH5rHpQHvzZ1q_2ZQOVZ-AE",
+		    authDomain: "cariere-6d468.firebaseapp.com",
+		    databaseURL: "https://cariere-6d468.firebaseio.com",
+		    projectId: "cariere-6d468",
+		    storageBucket: "cariere-6d468.appspot.com",
+		    messagingSenderId: "757550022548"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+
+		<div id="Meniu"> 
+			<table>
+				<tr> <th> Meniu </th> </tr>
+				<tr> <td> <input id="ButonAnunturi" type="button" value="Anunturi"> </td> </tr>
+				<tr> <td> <input id="ButonHartaFacultate" type="button" value="Harta facultate"> </td> </tr>
+				<tr> <td> <input id="ButonProgramPrezentari" type="button" value="Program prezentari" </td> </tr>
+				<tr> <td> <input id="ButonProgramWorkshopuri" type="button" value="Program workshopuri" </td> </tr>
+				<tr> <td> <input id="ButonPachete" type="button" value="Pachete de sponsorizare"</td></tr>
+				<tr> <td> <input id="ButonContact" type="button" value="Contact" </td></tr>
+			</table>
+		</div>
+		
+		<div id="PachetSilver">
+		<h3><br><br><br>•susținerea unei prezentări de 30 min <br><br>
+		•logo-ul firmei prezent pe afișul evenimentului, pe site și pe toate materialele promoționale <br><br>
+		•posibilitatea de a expune un roll-up în amfiteatrul în care va avea loc evenimentul sau
+		în afara acestuia<br><br>
+		•posibilitatea de a împărți flyere sau alte materiale de informare celor prezenți
+		la eveniment<br><br>
+		•o postare pe facebook (event) cu link către site-ul companiei</h3>
+		
+		<input id="Alege" class= "buton" type="button" value ="Alege pachet!">
+		<input id="Intoarce" class = "buton" type="button" value="Intoarce-te la pachete!">
+		</div>
+		<footer>
+			<br>
+			<p> AMA © 2018 </p>
+			<p> Universitatea din Bucuresti </p>
+			<p> Facultatea de Matematica si Informatica </p>	 
+		</footer>
+	</body>
+</html>

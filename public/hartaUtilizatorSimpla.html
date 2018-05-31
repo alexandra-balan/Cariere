@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styleHartaUtilizatorSimpla.css">
+    <script src="dataHartaUtilizatorSimpla.js"></script>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="targ, cariere, fmi, unibuc, proiect">
+    <meta name="description" content="Site targ cariere">
+    <meta name="author" content="Andreea-Alexandra Balan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Harta Standuri Utilizator Simpla </title>
+
+
+
+</head>
+
+<body>
+
+        <input id = "ButonSignOut" type = "button" value="Sign Out">
+    <header>Harta Standuri</header>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyAS5UYX4RkfpH5rHpQHvzZ1q_2ZQOVZ-AE",
+        authDomain: "cariere-6d468.firebaseapp.com",
+        databaseURL: "https://cariere-6d468.firebaseio.com",
+        projectId: "cariere-6d468",
+        storageBucket: "cariere-6d468.appspot.com",
+        messagingSenderId: "757550022548"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <div id="Meniu">
+        <table>
+            <tr>
+                <th> Meniu </th>
+            </tr>
+            <tr>
+                <td>
+                    <input id="ButonAnunturi" type="button" value="Anunturi"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="ButonHartaFacultate" type="button" value="Harta facultate"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="ButonProgramPrezentari" type="button" value="Program prezentari" </td> </tr>
+            <tr>
+                <td>
+                    <input id="ButonProgramWorkshopuri" type="button" value="Program workshopuri" </td> </tr>
+            <tr>
+                <td>
+                    <input id="ButonContact" type="button" value="Contact" </td>
+            </tr>
+        </table>
+    </div>
+    <div class="divMare">
+        <div class="containerHarti1">
+                <h1>Ziua 1</h1>
+            <img src="harta1.jpg" style="width:100%">
+            
+
+        </div>
+
+        <div class="containerHarti2">
+                <h1>Ziua 2</h1>
+            <img src=" harta1.jpg " style="width:100% ">
+           
+        </div>
+
+        <div class="containerHarti3">
+            <h1>Ziua 3</h1>
+            <img src=" harta1.jpg " style="width:100% ">
+          
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <br>
+        <p> AMA © 2018 </p>
+        <p> Universitatea din Bucuresti </p>
+        <p> Facultatea de Matematica si Informatica </p>
+    </footer>
+
+</body>
+
+</html>
